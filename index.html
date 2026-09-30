@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Fauziyya❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- INTRO -->
+  <section class="intro" id="intro">
+
+    <div class="intro-content">
+
+      <div class="small-text">A little something for you</div>
+
+      <h1>
+        I could tell you<br>
+        why you're special...
+      </h1>
+
+      <p>or I could show you.</p>
+
+      <button class="start-btn" onclick="startExperience()">
+        Show me ❤️
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- MAIN EXPERIENCE -->
+  <main class="main" id="main">
+
+    <header class="header">
+
+      <div class="tiny-label">
+        MADE ESPECIALLY FOR YOU
+      </div>
+
+      <h2>Why You're Special To Me</h2>
+
+      <p>
+        There are probably a million things I could say,
+        but let's start with a few.
+      </p>
+
+    </header>
+
+
+    <!-- PROGRESS -->
+    <div class="progress-container">
+
+      <div class="progress-text">
+        <span id="openedCount">0</span> / 7 opened
+      </div>
+
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+
+    </div>
+
+
+    <!-- CARDS -->
+    <section class="cards">
+
+      <!-- CARD 1 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">01</span>
+            <h3>Your Personality</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">01</span>
+
+            <p>
+              There's something about the way you are that makes
+              you different to me. You're not just someone I talk to.
+              You're someone I genuinely enjoy knowing.
+              You're someone i want to spend the rest of my life with. And I don't say that lightly.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 2 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">02</span>
+            <h3>Your Eyes</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">02</span>
+
+            <p>
+              Your eyes have this unfair ability to make everything
+              feel a little better. They are so captivating and breath-taking that I could get lost in them for hours.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 3 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">03</span>
+            <h3>The Way You Talk</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">03</span>
+
+            <p>
+              I like hearing you talk. Even when you're telling me
+              something completely random, somehow I still want
+              to keep listening.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 4 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">04</span>
+            <h3>The Little Things</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">04</span>
+
+            <p>
+              It's not always the big things. Sometimes it's the
+              tiny things you do without thinking that stay in my
+              mind. Those little moments mean more than you know.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 5 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">05</span>
+            <h3>How You Make Me Feel</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">05</span>
+
+            <p>
+              Somehow, talking to you can turn an ordinary moment
+              into one I actually want to remember. That's something
+              I don't take for granted. You make me feel special in ways I can't even describe.
+              You make me feel loved, appreciated, and understood. And for that, I am truly grateful.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 6 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">06</span>
+            <h3>Our Memories</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">06</span>
+
+            <p>
+              Though we've only known each other for a short time,
+              the memories we've made together are already some of my most treasured.
+              I enjoyed when we kissed for the first time, and I enjoyed when we held hands for the first time. I enjoyed when we laughed together, I enjoyed every moment we've shared, and I look forward to making many more memories with you in the future.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- CARD 7 -->
+      <div class="card-container" onclick="openCard(this)">
+
+        <div class="card">
+
+          <div class="card-front">
+            <span class="number">07</span>
+            <h3>Something I Don't Say Enough</h3>
+            <span class="tap">Tap to open →</span>
+          </div>
+
+          <div class="card-back">
+            <span class="number">07</span>
+
+            <p>
+              I appreciate you. Probably more than I say.
+              And I'm genuinely glad that out of all the people
+              in this world, somehow our paths crossed.
+            </p>
+
+            <span class="heart">♡</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FINAL SURPRISE -->
+    <section class="final-section" id="finalSection">
+
+      <div class="final-line"></div>
+
+      <p class="final-small">
+        You opened everything...
+      </p>
+
+      <h2>
+        But I still have<br>
+        <span>one more thing</span> to say.
+      </h2>
+
+      <button class="final-btn" onclick="showFinalMessage()">
+        One more thing →
+      </button>
+
+    </section>
+
+
+    <!-- FINAL MESSAGE -->
+    <section class="final-message" id="finalMessage">
+
+      <div class="message-box">
+
+        <div class="message-label">
+          JUST BETWEEN US
+        </div>
+
+        <h2>For You ❤️</h2>
+
+        <p>
+          I don't think you always realize how special you are to me.
+        </p>
+
+        <p>
+          I could've just sent you a normal message,
+          but I wanted to make something that you could actually
+          keep and come back to whenever you wanted.
+        </p>
+
+        <p>
+          So whenever you look at this, remember one thing:
+          you're appreciated, you're valued, and you're someone
+          I'm genuinely happy to have in my life.
+          pS. I love you ❤️ AND I want to spend the rest of my life with you.
+          And want to make you the happiest girl in the world. I want to be your everything, and I want to be with you forever. I love you Fauziyya ❤️
+        </p>
+
+        <p class="signature">
+          — Ya Habibi ❤️
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
